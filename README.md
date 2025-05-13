@@ -1,16 +1,40 @@
-# json_builder
+# JSON Builder (JavaScript)
 
-A new Flutter project.
+A dynamic web-based JSON builder that allows users to visually construct and export structured JSON data without writing raw code. Ideal for developers, testers, and data designers who need to quickly prototype or configure JSON objects.
 
-## Getting Started
+## Technologies
+- **JavaScript** – Core logic for handling JSON structures  
+- **HTML & CSS** – User interface layout and styling  
+- **React.js** *(optional)* – If applicable, used to manage components and state  
 
-This project is a starting point for a Flutter application.
+## Prerequisites
+- A modern web browser (Chrome, Firefox, etc.)
+- Git (for cloning the repository)
+- Node.js & npm *(only if React or build tools are used)*
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- Add/edit/delete key-value pairs
+- Nest objects and arrays within the JSON
+- Export to a downloadable `.json` file
+- Real-time JSON preview
+- Error handling for malformed structures
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to Run
+1. ```Clone the repository**:
+   git clone https://github.com/benPozin/json-builder.git
+2. ```Navigate into the project folder:
+   cd json-builder
+3. ```Run this command to open in chrome browser: 
+   flutter run -d chrome
+   
+## Screenshot
+<img width="1509" alt="image" src="https://github.com/user-attachments/assets/1bbee52a-f3c7-4672-b310-bcaa14990f0b" />
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##Future Improvements
+* Add drag-and-drop support for reordering elements
+* Add support for JSON Schema templates
+* Toggle between tree view and raw code editor
+* Syntax highlighting and live validation
+
+
+
